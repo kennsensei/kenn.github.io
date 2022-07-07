@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Balilihan Website</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"> 
+</head>
+<body>
+	<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="images/b_logo.jpg"></a>
+		<div class="nav-links" id="navlinks">
+		<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="explore.html">EXPLORE</a></li>
+				<li><a href="history.html">HISTORY</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars"  onclick="showMenu()"></i>
+	</nav>
+		<h1>HISTORY OF BALILIHAN</h1>
+	</section>
+	
+	<!---------history---->
+	<section class="history">
+		<div class="row">
+			<div class="history-col">
+				<h1>BRIEF HISTORY OF BALILIHAN</h1>
+				<p>The towns of Bohol either got their names from plants or from mis-interpreted<br> words at the onset
+				of the Spanish occupation of the island. For Balilihan,<br> its name was derived from a grass called balili
+				which grew <br>in abundance in the locality. “Balilihan” means a place where<br> plenty of “balili” grows.</p>
+				<h2>Present</h2>
+				<p>The Municipality of Balilihan has set its foundation day on September 29, 1828; <br>supposedly the day when the town
+				was separated from its mother town, Baclayon.<br> The date is questionable though, for per historical records,<br> its founding
+				date was officially recorded on another date. <br>How and why this is so is yet to be clarified.</p>
+				<p> Succeeding historical events will be posted here according to dates<br> to illustrate comprehensively the events
+				that transpired.<br> What has been observed, and has been done throughout the years, <br>was that the town of Balilihan 
+				celebrates with much fanfare their foundation <br>day on September 29, 1828. Week-long activities are scheduled aside from 
+				the thanksgiving Mass <br>on the foundation day itself with the ever present<br> street dancing competition</p>
+				
+				<h3>How the Municipality of Balilihan was Established</h3>
+				<p>	Balilihan was an old settlement, a barrio under the municipality of Baclayon with the families Orig, Dangoy,
+				Racho, Maniwang, Lacea and Pongase as the first inhabitants. The population grew when more people from other towns
+				came to settle in the area.With the significant growth in population,the inhabitants sought to make their
+				place be a “visita” or mission field.</p>
+				<p>	On February 5, 1828, prior to the capture of the Dagohoy insurgents, Captain Manuel Sanz’
+				request to establish resettlement areas in Boholin places called Balilihan, Batuanan, Catigbian, Vilar, Candijay and
+				Cabulao was approved by the Governor General Mariano Ricafort.</p>
+				<p>In April 1828, Governor-general Ricafort sent the last drive against the rebels under Captain Manuel Sanz, 
+				a veteran Spanish soldier. Without Dagohoy’s able leadership, the rebels fought and made their last stand in 
+				the mountains of Boasa under the command of brothers, Handog and Auag. They fought in vain.
+				</p>
+				<p>	A garrison was established by the Spanish authorities at Datag, one of the barrios of Balilihan,to discourage
+				and stamp out further uprisings of the natives.Per records of the town, Balilihan was separated from Baclayon on 
+				September 29, 1828 and the Spanish government, represented by Friar Tomas, formally established a settlement
+				or “pueblo” in the Sitio “Bay sa Iring”. The Sitio was named so for the network of caves from where cats go and hide.
+				The Sitio was about two kilometers from the Spanish garrison. Serafin Pongase was appointed as the first captain,
+				but his administration was short-lived because he met his death in the hands of Manuel Danila with whom he had an altercation.
+				</p>
+				<p>	The next historical data was the official report of Captain Sanz stating that the town of Balilihan was officially settled
+				on April 1829 with the assignment of its corresponding Parish Priest. The following month, on May 20, 1829, the people were 
+				convened to choose their Patron Saint.
+				</p>
+				<p>
+					When the followers of Dagohoy were finally disbanded in August 31, 1829, they were pardoned and allowed to live in peace. 
+				On this date, the Spanish conqueror, Captain Manuel Sanz, reported that Balilihan has now a total population of 2,100 people 
+				under the temporary administration of Father Manuel Plaza de San Benito.
+				</p>
+				<p>
+					On September 2, 1829, now Major Sanz requested that Balilihan and other settlement areas be made into new towns in the civil
+					jurisdiction only. On December 9, 1831, the new Governor General Pascual Enrile officially approved the recommendation of 
+					Major Manuel Sanz.
+				</p>
+				
+			</div>
+			<div class="history-col">
+				<img src="images/w_backgroud.jpg">
+			</div>
+		</div>
+		
+	</section>
+	
+	
+	
+
+
+	
+	
+
+	
+	
+
+		<!-----footer--->
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>This website is to promote the beauty of Balilihan and for you to know more.<br>If your planning to visit our town for a vication<br>
+			you may also visit the followingbr>FA:<br>FACEBOOK PAGE<br> Balilihan Views <br>INSTAGRAM<br> itsbalilihanviews <br>TWITTER<br> Balilihan Official <br>Created by: BISU 3B students BILAR CAMPUS<br>Mixed Group</p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-tiktok"></i>
+			</div>
+		</section>
+	
+	
+	
+	
+	<!--------JavaScript for Toggle menu-------->
+	<script>
+	
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+		fuction hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+	</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

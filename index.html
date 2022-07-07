@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Balilihan Website</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"> 
+</head>
+<body>
+	<section class="header">
+	<nav>
+		<a href="index.html"><img src="images/b_logo.jpg"></a>
+		<div class="nav-links" id="navlinks">
+		<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="explore.html">EXPLORE</a></li>
+				<li><a href="history.html">HISTORY</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars"  onclick="showMenu()"></i>
+	</nav>
+	<div class="text-box">
+		<h1>The Balilihan Municipal</h1>
+		<p>One of the Bohol's Famous Municipality,<br> with its Tradition, Culture and Nature</p>
+		<a href="" class="hero-btn">Visit Us To Know More</a>
+	</div>
+	</section>
+	
+	<!----------TouristSpots----->
+	<section class="spots">
+		<h1>Fun Destination of the Place</h1>
+		<p>Panoramic View of the Place</p>
+		
+		<div class="row">
+			<div class="spots-col">
+			<h3>Nature</h3>
+
+			</div>
+			<div class="spots-col">
+			<h3>HAND-MADE</h3>
+
+			</div>
+		</div>
+	</section>
+	<!----------VISIT------------->
+	<section class="visit">
+		<h1>Our Featured Spots</h1>
+		<p>Local Tourist Destination You Can Enjoy</p>
+		
+		<div class="row">
+			<div class="visit-col">
+				<img src="images/kawasan falls.jpg">
+				<div class="layer">
+					<h3>KAWASAN FALLS</h3>
+				</div>
+			</div>
+			<div class="visit-col">
+				<img src="images/mt.carmel.jpg">
+				<div class="layer">
+					<h3>MT.CARMEL</h3>
+				</div>
+			</div>
+			<div class="visit-col">
+				<img src="images/niluksoan falls.jpg">
+				<div class="layer">
+					<h3>NILUKSOAN FALLS</h3>
+				</div>
+			</div>
+		</div>
+	
+	</section>
+	
+	<!-----church----->
+	<section class="chruch">
+		<h1>Our Church</h1>
+		<p>Church you may Visit</p>
+		
+		<div class="row">
+			<div class="church-col">
+				<img src="images/balilihan-church.jpg">
+				<h3>OUR LADY OF MT. CARMEL</h3>
+				<p>The symbol of faith of the balilihanon Christians that is pass through generations</p>
+			</div>
+		</div>
+	</section>
+	
+	<!-----call to action--->
+	<section class="cta">
+		<h1>Come and Visit our Town</h1>
+		<a href="" class="hero-btn">CONTACT US</a>
+		
+	</section>
+		<!-----footer--->
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>This website is to promote the beauty of Balilihan and for you to know more.<br>If your planning to visit our town for a vacation<br>
+			you may also visit the following:<br>FACEBOOK PAGE<br> Balilihan Views <br>INSTAGRAM<br> itsbalilihanviews <br>TWITTER<br> Balilihan Official <br>
+			Created by: BISU 3B students BILAR CAMPUS<br>Mixed Group</p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-tiktok"></i>
+			</div>
+		</section>
+	
+	
+	
+	
+	<!--------JavaScript for Toggle menu-------->
+	<script>
+	
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+		fuction hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+	</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

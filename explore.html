@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Balilihan Website</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"> 
+</head>
+<body>
+	<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="images/b_logo.jpg"></a>
+		<div class="nav-links" id="navlinks">
+		<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="explore.html">EXPLORE</a></li>
+				<li><a href="history.html">HISTORY</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars"  onclick="showMenu()"></i>
+	</nav>
+		<h1>EXPLORE BALILIHAN</h1>
+	</section>
+	
+		<!----------TouristSpots----->
+	<section class="spots">
+		<h1>Fun Destination of the Place</h1>
+		<p>Panoramic View of the Place</p>
+		
+		<div class="row">
+			<div class="spots-col">
+			<h3>Nature</h3>
+			<p>Camugao Falls<br>
+				Kawasan Falls<br>
+				Niluksoan Falls<br>
+			</p>
+			</div>
+			<div class="spots-col">
+			<h3>HAND-MADE</h3>
+			<p>Magsiha Swimming Pool<br>
+			Mt.Carmel<br>
+			</p>
+			</div>
+		</div>
+	</section>
+	<!----------VISIT------------->
+	<section class="visit">
+		<h1>Our Featured Spots</h1>
+		<p>Local Tourist Destination You Can Enjoy</p>
+		
+		<div class="row">
+			<div class="visit-col">
+				<img src="images/kawasan falls.jpg">
+				<div class="layer">
+					<h3>KAWASAN FALLS</h3>
+				</div>
+			</div>
+			<div class="visit-col">
+				<img src="images/mt.carmel.jpg">
+				<div class="layer">
+					<h3>MT.CARMEL</h3>
+				</div>
+			</div>
+			<div class="visit-col">
+				<img src="images/niluksoan falls.jpg">
+				<div class="layer">
+					<h3>NILUKSOAN FALLS</h3>
+				</div>
+			</div>
+		</div>
+	
+	</section>
+		<!-----MAP----->
+	<section class="map">
+		<h1> MAP</h1>
+		<p>Position of Balilihan and its neighboring municipalities</p>
+		
+		<div class="row">
+			<div class="map-col">
+				<img src="images/b_maps.png">
+				<h3>SATELLITE MAP OF BALILIHAN</h3>
+				<p>It is located 22 kilometres (14 mi) northeast of Tagbilaran through Cortes (via CPG North Avenue)
+				, or 20 kilometres (12 mi) northeast through Corella (via J.A. Clarin Street). It has the fourth largest
+				land area of the province, with 127.27 km2 (49.14 sq. mi) of land. </p>
+			</div>
+		</div>
+	</section>
+	
+
+	
+	
+	
+
+
+	
+	
+
+	
+	
+
+		<!-----footer--->
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>This website is to promote the beauty of Balilihan and for you to know more.<br>If your planning to visit our town for a vacation<br>
+			you may also visit the following:<br>FACEBOOK PAGE<br> Balilihan Views <br>INSTAGRAM<br> itsbalilihanviews <br>TWITTER<br> Balilihan Official <br>Created by: BISU 3B students BILAR CAMPUS<br>Mixed Group</p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-tiktok"></i>
+			</div>
+		</section>
+	
+	
+	
+	
+	<!--------JavaScript for Toggle menu-------->
+	<script>
+	
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+		fuction hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+	</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
